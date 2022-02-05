@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarger(
             name: "GithubKMMModule",
-                      path: "xcframework/GithubKMMModule.xcframework"
+            path: "xcframework/GithubKMMModule.xcframework"
         )
     ]
 )
