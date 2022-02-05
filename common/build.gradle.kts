@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    `maven-publish`
 }
 
 kotlin {
@@ -54,6 +55,11 @@ kotlin {
             iosSimulatorArm64Test.dependsOn(this)
         }
     }
+
+    android {
+        publishLibraryVariants("release", "debug")
+        publishLibraryVariantsGroupedByFlavor = true
+    }
 }
 
 android {
@@ -62,5 +68,22 @@ android {
     defaultConfig {
         minSdk = 24
         targetSdk = 31
+    }
+}
+
+publishing {
+    repositories {
+        maven {
+            url = uri("repo")
+        }
+    }
+    publications {
+        create<MavenPublication>("maven") {
+            this.pom {
+                version = "0.0.1"
+                groupId = "com.yochidros.githubmodule"
+                artifactId = "library"
+            }
+        }
     }
 }
