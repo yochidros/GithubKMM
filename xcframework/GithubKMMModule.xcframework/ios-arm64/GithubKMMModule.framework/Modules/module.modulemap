@@ -1,0 +1,6 @@
+framework module GithubKMMModule {
+    umbrella header "GithubKMMModule.h"
+
+    export *
+    module * { export * }
+}
