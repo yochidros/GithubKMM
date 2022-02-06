@@ -78,10 +78,15 @@ publishing {
         }
     }
     publications {
+        version = "0.0.1"
+        group = "com.yochidros.githubkmmmodule"
         create<MavenPublication>("maven") {
+            from(components["kotlin"])
+            this.version = "0.0.1"
+            this.groupId = "com.yochidros.githubkmmmodule"
             this.pom {
                 version = "0.0.1"
-                groupId = "com.yochidros.githubmodule"
+                groupId = "com.yochidros"
                 artifactId = "library"
             }
         }

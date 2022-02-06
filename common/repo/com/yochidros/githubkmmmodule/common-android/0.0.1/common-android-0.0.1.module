@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../common/unspecified/common-unspecified.module",
-    "group": "GithubKMMModule",
-    "module": "common",
-    "version": "unspecified",
+    "url": "../../library/0.0.1/library-0.0.1.module",
+    "group": "com.yochidros",
+    "module": "library",
+    "version": "0.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -26,14 +26,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
@@ -42,7 +42,7 @@
       "files": [
         {
           "name": "common-debug.aar",
-          "url": "common-android-unspecified-debug.aar",
+          "url": "common-android-0.0.1-debug.aar",
           "size": 2796,
           "sha512": "53f6afee728fc7c3dfdb618841ec3743cf939172ed9e784a06d700fd14e1ff9ea57563b5ff6af78689e612808cd6df6608f529db0096676d40a0b5904ec3889a",
           "sha256": "9a0678c68e78913833e2346ce6db083257cf1e615aa25acfed2dc2eb6cc666d4",
@@ -62,7 +62,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },
@@ -75,7 +75,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -90,7 +90,7 @@
       "files": [
         {
           "name": "common-debug.aar",
-          "url": "common-android-unspecified-debug.aar",
+          "url": "common-android-0.0.1-debug.aar",
           "size": 2796,
           "sha512": "53f6afee728fc7c3dfdb618841ec3743cf939172ed9e784a06d700fd14e1ff9ea57563b5ff6af78689e612808cd6df6608f529db0096676d40a0b5904ec3889a",
           "sha256": "9a0678c68e78913833e2346ce6db083257cf1e615aa25acfed2dc2eb6cc666d4",
@@ -109,14 +109,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
@@ -125,7 +125,7 @@
       "files": [
         {
           "name": "common-release.aar",
-          "url": "common-android-unspecified.aar",
+          "url": "common-android-0.0.1.aar",
           "size": 2694,
           "sha512": "0ee086a46c93cb38d74a648efceee05608f55f643cc66cfa598796c938b9a9fdafc618a027f2a4d3858c3adddf05ec20269750944510a65836a60f878fe85e95",
           "sha256": "5968701f318583622256eb3a6138322f788c678cc8d7638c2851ad0a145131cb",
@@ -144,7 +144,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },
@@ -157,7 +157,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -172,7 +172,7 @@
       "files": [
         {
           "name": "common-release.aar",
-          "url": "common-android-unspecified.aar",
+          "url": "common-android-0.0.1.aar",
           "size": 2694,
           "sha512": "0ee086a46c93cb38d74a648efceee05608f55f643cc66cfa598796c938b9a9fdafc618a027f2a4d3858c3adddf05ec20269750944510a65836a60f878fe85e95",
           "sha256": "5968701f318583622256eb3a6138322f788c678cc8d7638c2851ad0a145131cb",
