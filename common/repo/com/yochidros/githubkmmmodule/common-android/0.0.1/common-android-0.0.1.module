@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../library/0.0.1/library-0.0.1.module",
+    "url": "../../common/0.0.1/common-0.0.1.module",
     "group": "com.yochidros",
-    "module": "library",
+    "module": "common",
     "version": "0.0.1",
     "attributes": {
       "org.gradle.status": "release"
@@ -26,14 +26,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -62,7 +62,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -75,7 +75,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },
@@ -109,14 +109,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -144,7 +144,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -157,7 +157,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },

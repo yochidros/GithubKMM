@@ -87,7 +87,6 @@ publishing {
             this.pom {
                 version = "0.0.1"
                 groupId = "com.yochidros"
-                artifactId = "library"
             }
         }
     }
