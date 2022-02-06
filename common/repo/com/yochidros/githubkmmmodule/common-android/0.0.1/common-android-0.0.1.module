@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "url": "../../common/0.0.1/common-0.0.1.module",
-    "group": "com.yochidros.githubkmmmodule",
+    "group": "com.yochidros",
     "module": "common",
     "version": "0.0.1",
     "attributes": {
@@ -26,14 +26,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -43,11 +43,11 @@
         {
           "name": "common-debug.aar",
           "url": "common-android-0.0.1-debug.aar",
-          "size": 2796,
-          "sha512": "53f6afee728fc7c3dfdb618841ec3743cf939172ed9e784a06d700fd14e1ff9ea57563b5ff6af78689e612808cd6df6608f529db0096676d40a0b5904ec3889a",
-          "sha256": "9a0678c68e78913833e2346ce6db083257cf1e615aa25acfed2dc2eb6cc666d4",
-          "sha1": "ddaf08b2d1417cb43a15ca1ac8de4fca3e532e9c",
-          "md5": "8a32cedc25d8bad4542034cd97bee052"
+          "size": 3382,
+          "sha512": "f3baf03904dc5dc86ad821fc73cbdef711669183c0036b4aad341b1091b39388522538de20aa375738fe963f3d5be3b0b5716fe6509a06dcd362415b444cb51b",
+          "sha256": "7674c7aea5f574e1bf0acd3c94396cf5db2e651c19358485515218876b8ad8bc",
+          "sha1": "83e50608229d6c12b64f5bfaa4c0dbcc8fcca806",
+          "md5": "e17b75dfa69db0478499270884286c19"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -75,7 +75,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },
@@ -91,11 +91,11 @@
         {
           "name": "common-debug.aar",
           "url": "common-android-0.0.1-debug.aar",
-          "size": 2796,
-          "sha512": "53f6afee728fc7c3dfdb618841ec3743cf939172ed9e784a06d700fd14e1ff9ea57563b5ff6af78689e612808cd6df6608f529db0096676d40a0b5904ec3889a",
-          "sha256": "9a0678c68e78913833e2346ce6db083257cf1e615aa25acfed2dc2eb6cc666d4",
-          "sha1": "ddaf08b2d1417cb43a15ca1ac8de4fca3e532e9c",
-          "md5": "8a32cedc25d8bad4542034cd97bee052"
+          "size": 3382,
+          "sha512": "f3baf03904dc5dc86ad821fc73cbdef711669183c0036b4aad341b1091b39388522538de20aa375738fe963f3d5be3b0b5716fe6509a06dcd362415b444cb51b",
+          "sha256": "7674c7aea5f574e1bf0acd3c94396cf5db2e651c19358485515218876b8ad8bc",
+          "sha1": "83e50608229d6c12b64f5bfaa4c0dbcc8fcca806",
+          "md5": "e17b75dfa69db0478499270884286c19"
         }
       ]
     },
@@ -109,14 +109,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -126,11 +126,11 @@
         {
           "name": "common-release.aar",
           "url": "common-android-0.0.1.aar",
-          "size": 2694,
-          "sha512": "0ee086a46c93cb38d74a648efceee05608f55f643cc66cfa598796c938b9a9fdafc618a027f2a4d3858c3adddf05ec20269750944510a65836a60f878fe85e95",
-          "sha256": "5968701f318583622256eb3a6138322f788c678cc8d7638c2851ad0a145131cb",
-          "sha1": "0803e3948b05d4c3d80344acdd18417722ca68d4",
-          "md5": "c7ab089b303535558702f2a0c978190f"
+          "size": 3282,
+          "sha512": "5ef87d32ef3e2db966b0a0c1dbfb54cb37ed44414ad3120e9b0c470fad339a2bec0948d3e272f6d986fc9796e8a605af7eb207eec21b0e020f2239a70bcc244f",
+          "sha256": "a74b1eab57f783f91d7a1823df708bdc88beadaf097a31bc00310bc485354dc3",
+          "sha1": "54b1efc5cffc16ffb27c44b71bc10b7f9ea4f4b5",
+          "md5": "38531bc149006ce5707296f98aa4fcee"
         }
       ]
     },
@@ -144,7 +144,7 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           },
@@ -157,7 +157,7 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           },
@@ -173,11 +173,11 @@
         {
           "name": "common-release.aar",
           "url": "common-android-0.0.1.aar",
-          "size": 2694,
-          "sha512": "0ee086a46c93cb38d74a648efceee05608f55f643cc66cfa598796c938b9a9fdafc618a027f2a4d3858c3adddf05ec20269750944510a65836a60f878fe85e95",
-          "sha256": "5968701f318583622256eb3a6138322f788c678cc8d7638c2851ad0a145131cb",
-          "sha1": "0803e3948b05d4c3d80344acdd18417722ca68d4",
-          "md5": "c7ab089b303535558702f2a0c978190f"
+          "size": 3282,
+          "sha512": "5ef87d32ef3e2db966b0a0c1dbfb54cb37ed44414ad3120e9b0c470fad339a2bec0948d3e272f6d986fc9796e8a605af7eb207eec21b0e020f2239a70bcc244f",
+          "sha256": "a74b1eab57f783f91d7a1823df708bdc88beadaf097a31bc00310bc485354dc3",
+          "sha1": "54b1efc5cffc16ffb27c44b71bc10b7f9ea4f4b5",
+          "md5": "38531bc149006ce5707296f98aa4fcee"
         }
       ]
     }

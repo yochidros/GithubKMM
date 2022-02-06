@@ -86,10 +86,10 @@ publishing {
             from(components["kotlin"])
             this.version = "0.0.1"
             this.groupId = "com.yochidros.githubkmmmodule"
-//            this.pom {
-//                version = "0.0.1"
-//                groupId = "com.yochidros"
-//            }
+            this.pom {
+                version = "0.0.1"
+                groupId = "com.yochidros"
+            }
         }
     }
 }

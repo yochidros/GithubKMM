@@ -149,6 +149,14 @@ __attribute__((swift_name("Greeting")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Hello")))
+@interface GKMMMHello : GKMMMBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Platform")))
 @interface GKMMMPlatform : GKMMMBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
