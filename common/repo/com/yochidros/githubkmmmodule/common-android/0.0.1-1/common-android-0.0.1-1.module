@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../common/0.0.1-1/common-0.0.1-1.module",
+    "group": "com.yochidros",
+    "module": "common",
+    "version": "0.0.1-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-debug.aar",
+          "url": "common-android-0.0.1-1-debug.aar",
+          "size": 3380,
+          "sha512": "7edad8e600646a32b008635f962967ed7464c21a2bd0c22877277c6ae78f88c910eaca1e6fc2888aa8fa0dac0a1b052c882d687b55bb90f5960ab75a5c92d8d4",
+          "sha256": "e162f8a9a35765a52b488ccdc19a82823fbfff25ca5665bcc3412c8d2578002d",
+          "sha1": "f479083e67e46195df4e443b62bfdd009d1e633e",
+          "md5": "b261ac33a8fe3d51083d082a90e2d488"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "common-debug.aar",
+          "url": "common-android-0.0.1-1-debug.aar",
+          "size": 3380,
+          "sha512": "7edad8e600646a32b008635f962967ed7464c21a2bd0c22877277c6ae78f88c910eaca1e6fc2888aa8fa0dac0a1b052c882d687b55bb90f5960ab75a5c92d8d4",
+          "sha256": "e162f8a9a35765a52b488ccdc19a82823fbfff25ca5665bcc3412c8d2578002d",
+          "sha1": "f479083e67e46195df4e443b62bfdd009d1e633e",
+          "md5": "b261ac33a8fe3d51083d082a90e2d488"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-release.aar",
+          "url": "common-android-0.0.1-1.aar",
+          "size": 3277,
+          "sha512": "7e5a31bc9171c63c356f1dc0aee4451538c1e7bf9859dcdcce73b05755307c9d722e54c604053cffe9f4041d774acce7add6fc21ac047602411062276a5f839c",
+          "sha256": "3562cd89dba8e4e037933ecd206beaf5fe4ef5bd17292a2e7f44b94be5e2cb1d",
+          "sha1": "16ced5d06ffc7e18386e6bf4358a38eb398fd15b",
+          "md5": "76f8600af2d5a1d73f0b2cb75a12a38c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "common-release.aar",
+          "url": "common-android-0.0.1-1.aar",
+          "size": 3277,
+          "sha512": "7e5a31bc9171c63c356f1dc0aee4451538c1e7bf9859dcdcce73b05755307c9d722e54c604053cffe9f4041d774acce7add6fc21ac047602411062276a5f839c",
+          "sha256": "3562cd89dba8e4e037933ecd206beaf5fe4ef5bd17292a2e7f44b94be5e2cb1d",
+          "sha1": "16ced5d06ffc7e18386e6bf4358a38eb398fd15b",
+          "md5": "76f8600af2d5a1d73f0b2cb75a12a38c"
+        }
+      ]
+    }
+  ]
+}

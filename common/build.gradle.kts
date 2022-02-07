@@ -71,23 +71,23 @@ android {
     }
 }
 
+val v = "0.0.1-1"
+group = "com.yochidros.githubkmmmodule"
 publishing {
     repositories {
         maven {
             url = uri("repo")
-            version = "0.0.1"
-            group = "com.yochidros.githubkmmmodule"
+            version = v
         }
     }
+
     publications {
-        version = "0.0.1"
-        group = "com.yochidros.githubkmmmodule"
+        version = v
         create<MavenPublication>("maven") {
             from(components["kotlin"])
-            this.version = "0.0.1"
-            this.groupId = "com.yochidros.githubkmmmodule"
+
             this.pom {
-                version = "0.0.1"
+                version = v
                 groupId = "com.yochidros"
             }
         }
